@@ -1,4 +1,5 @@
 var http = require('http'), //This module provides the HTTP server functionalities
+    //const expAutoSan = require('express-autosanitizer'),
     path = require('path'), //The path module provides utilities for working with file and directory paths
     express = require('express'), //This module allows this app to respond to HTTP Requests, defines the routing and renders back the required content
     fs = require('fs'), //This module allows to work witht the file system: read and write files back
