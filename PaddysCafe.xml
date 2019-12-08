@@ -1,62 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<cafemenu>
+<barmenu>
   <section name="Cocktails"/>
   <section name="Beers">
     <entree>
       <item>Sex on the Beach</item>
       <price>5.00</price>
+      <quantity>2</quantity>
     </entree>
     <entree>
       <item>Piña Colada</item>
       <price>5.00</price>
+      <quantity>2</quantity>
     </entree>
     <entree vegetarian="true">
       <item>Bowl of fruit</item>
       <price>6.99</price>
+      <quantity>2</quantity>
     </entree>
     <entree vegetarian="true">
       <item>French toast</item>
       <price>5.25</price>
+      <quantity>2</quantity>
     </entree>
     <entree>
       <item>Croissant</item>
       <price>3.99</price>
+      <quantity>2</quantity>
     </entree>
     <entree>
       <item>corona</item>
       <price>5</price>
+      <quantity>2</quantity>
     </entree>
     <entree>
       <item/>
       <price>5</price>
+      <quantity>2</quantity>
+    </entree>
+    <entree>
+      <item>3</item>
+      <price>3</price>
+      <quantity/>
+    </entree>
+    <entree>
+      <item>ed</item>
+      <price>4</price>
+      <quantity>2</quantity>
     </entree>
   </section>
   <section name="Ciders">
     <entree>
       <item>Orchard thieves</item>
       <price>4.00</price>
+      <quantity>2</quantity>
     </entree>
     <entree>
       <item>Bulmers</item>
       <price>4.00</price>
+      <quantity>2</quantity>
     </entree>
     <entree vegetarian="true">
       <item>Pasta Salad</item>
       <price>7.39</price>
+      <quantity>2</quantity>
     </entree>
   </section>
   <section name="Fizzy Drinks">
     <entree>
       <item>Coca cola</item>
       <price>2.50</price>
+      <quantity>2</quantity>
     </entree>
     <entree>
       <item>Fanta</item>
       <price>2.50</price>
+      <quantity>2</quantity>
     </entree>
     <entree vegetarian="true">
       <item>Linguini with Grilled Porcini Mushroom</item>
       <price>9.79</price>
+      <quantity>2</quantity>
     </entree>
-  </section>
-</cafemenu>
+</section>
+</barmenu>
