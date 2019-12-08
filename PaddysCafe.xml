@@ -2,84 +2,64 @@
 <barmenu>
   <section name="Cocktails"/>
   <section name="Beers">
-    <entree>
-      <item>Sex on the Beach</item>
-      <price>5.00</price>
-      <quantity>2</quantity>
+    <entree nonalcoholic="true">
+      <item>Heineken-nonalcoholic </item>
+       <quantity>1</quantity>
+      <price>4</price>
     </entree>
-    <entree>
-      <item>Piña Colada</item>
-      <price>5.00</price>
-      <quantity>2</quantity>
-    </entree>
-    <entree vegetarian="true">
-      <item>Bowl of fruit</item>
-      <price>6.99</price>
-      <quantity>2</quantity>
-    </entree>
-    <entree vegetarian="true">
-      <item>French toast</item>
+    <entree nonalcoholic="true">
+      <item>Heineken non-alcohoic</item>
+       <quantity>1</quantity>
       <price>5.25</price>
-      <quantity>2</quantity>
     </entree>
     <entree>
       <item>Croissant</item>
+       <quantity>9</quantity>
       <price>3.99</price>
-      <quantity>2</quantity>
     </entree>
     <entree>
       <item>corona</item>
+       <quantity>6</quantity>
       <price>5</price>
-      <quantity>2</quantity>
     </entree>
     <entree>
       <item/>
+       <quantity>4</quantity>
       <price>5</price>
-      <quantity>2</quantity>
-    </entree>
-    <entree>
-      <item>3</item>
-      <price>3</price>
-      <quantity/>
-    </entree>
-    <entree>
-      <item>ed</item>
-      <price>4</price>
-      <quantity>2</quantity>
     </entree>
   </section>
   <section name="Ciders">
     <entree>
       <item>Orchard thieves</item>
-      <price>4.00</price>
-      <quantity>2</quantity>
+       <quantity>6.99</quantity>
+      <price>2</price>
     </entree>
     <entree>
       <item>Bulmers</item>
+       <quantity>0</quantity>
       <price>4.00</price>
-      <quantity>2</quantity>
     </entree>
-    <entree vegetarian="true">
-      <item>Pasta Salad</item>
-      <price>7.39</price>
-      <quantity>2</quantity>
+    <entree nonalcoholic="true">
+      <item>Bulmers non-alcoholic</item>
+       <quantity>2</quantity>
+      <price>5</price>
     </entree>
   </section>
   <section name="Fizzy Drinks">
     <entree>
       <item>Coca cola</item>
+       <quantity>7</quantity>
       <price>2.50</price>
-      <quantity>2</quantity>
     </entree>
     <entree>
       <item>Fanta</item>
+       <quantity>5</quantity>
       <price>2.50</price>
-      <quantity>2</quantity>
     </entree>
-    <entree vegetarian="true">
-      <item>Linguini with Grilled Porcini Mushroom</item>
-      <price>9.79</price>
-      <quantity>2</quantity>
+    <entree nonalcoholic="true">
+      <item></item>
+       <quantity>2</quantity>
+      <price></price>
     </entree>
-</section>
+  </section>
 </barmenu>

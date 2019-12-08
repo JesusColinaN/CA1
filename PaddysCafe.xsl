@@ -23,8 +23,8 @@
                             </tr>
                             <xsl:for-each select="entree">
                             <tr  bgcolor ="FFFFFF" id="{position()}">
-                                <xsl:attribute name="vegetarian">
-                                    <xsl:value-of select="boolean(./@vegetarian)" />
+                                <xsl:attribute name="nonalcoholic">
+                                    <xsl:value-of select="boolean(./@nonalcoholic)" />
                                 </xsl:attribute>
                                 <td align="center">
                                     <input name="item0" type="checkbox" />

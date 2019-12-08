@@ -19,7 +19,7 @@ function calculateBill(idMenuTable) {
     return Math.round(fBillTotal * 100.0) / 100.0;
 };
 
-function highlightVegetarian(idTable, bShowVeg) {
+function highlightVegetarian(idTable, nonalcoholic) {
     // if bShowVeg is true, then we're highlighting vegetarian
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
@@ -28,11 +28,10 @@ function highlightVegetarian(idTable, bShowVeg) {
     var aTRs = oTBODY.getElementsByTagName('tr');
     // walk through each of the table rows and see if it has a 
     // "vegetarian" attribute on it.
-    oTBODY.style.backgroundColor = "red";
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('vegetarian') == "true") {
-            if (bShowVeg) {
-                aTRs[i].style.backgroundColor = "lightGreen";
+        if (aTRs[i].getAttribute('nonalcoholic') == "true") {
+            if (nonalcoholic) {
+                aTRs[i].style.backgroundColor = "lightBlue";
             } else {
                 aTRs[i].style.backgroundColor = "";
             };
