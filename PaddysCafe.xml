@@ -17,14 +17,14 @@
       <price>8.99</price>
     </entree>
     <entree>
-      <item>cuba libre</item>
+      <item>Cuba libre</item>
       <price>7.00</price>
       <quantity>2</quantity>
     </entree>
     <entree>
       <item>Oso negro </item>
       <price>9.00</price>
-      <quantity>10</quantity>
+      <quantity>1</quantity>
     </entree>
   </section>
   <section name="Beers">
@@ -34,26 +34,33 @@
       <price>4</price>
     </entree>
     <entree nonalcoholic="true">
-      <item>Heineken non-alcohoic</item>
+      <item>Guinness non-alcohoic</item>
       <quantity>1</quantity>
       <price>5.25</price>
     </entree>
+     
+    <entree>
+      <item>Corona</item>
+      <quantity>1</quantity>
+      <price>3.25</price>
+    </entree>
+    
   </section>
   <section name="Ciders">
     <entree>
       <item>Orchard thieves</item>
-      <quantity>6.99</quantity>
-      <price>2</price>
+      <quantity>2</quantity>
+      <price>6.99</price>
     </entree>
     <entree>
       <item>Bulmers</item>
-      <quantity>0</quantity>
+      <quantity>1</quantity>
       <price>4.00</price>
     </entree>
     <entree nonalcoholic="true">
       <item>Bulmers non-alcoholic</item>
       <quantity>2</quantity>
-      <price>5</price>
+      <price>5.50</price>
     </entree>
   </section>
   <section name="Fizzy Drinks">
