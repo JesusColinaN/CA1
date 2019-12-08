@@ -4,12 +4,14 @@
                 <table id="menuTable" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="3">Jesus Bar Menu</th>
+                            <th colspan="4">Jesus Bar Menu</th>
                         </tr>
                         <tr>
                             <th>Select</th>
                             <th>Item</th>
+                            <th>Quantity</th>
                             <th>Price</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -27,9 +29,15 @@
                                 <td align="center">
                                     <input name="item0" type="checkbox" />
                                 </td>
+                                
                                 <td>
                                     <xsl:value-of select="item" />
                                 </td>
+
+                                <td>
+                                    <xsl:value-of select="quantity" />
+                                </td>
+                        
                                 <td align="right">
                                     <xsl:value-of select="price" />
                                 </td>

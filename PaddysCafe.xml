@@ -22,6 +22,14 @@
       <item>Croissant</item>
       <price>3.99</price>
     </entree>
+    <entree>
+      <item>corona</item>
+      <price>5</price>
+    </entree>
+    <entree>
+      <item/>
+      <price>5</price>
+    </entree>
   </section>
   <section name="Ciders">
     <entree>
