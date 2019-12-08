@@ -16,7 +16,6 @@
       <quantity>2</quantity>
       <price>8.99</price>
     </entree>
-
     <entree>
       <item>cuba libre</item>
       <price>7.00</price>
@@ -38,21 +37,6 @@
       <item>Heineken non-alcohoic</item>
       <quantity>1</quantity>
       <price>5.25</price>
-    </entree>
-    <entree>
-      <item>Croissant</item>
-      <quantity>9</quantity>
-      <price>3.99</price>
-    </entree>
-    <entree>
-      <item>corona</item>
-      <quantity>6</quantity>
-      <price>5</price>
-    </entree>
-    <entree>
-      <item/>
-      <quantity>4</quantity>
-      <price>5</price>
     </entree>
   </section>
   <section name="Ciders">
@@ -82,11 +66,6 @@
       <item>Fanta</item>
       <quantity>5</quantity>
       <price>2.50</price>
-    </entree>
-    <entree nonalcoholic="true">
-      <item/>
-      <quantity>2</quantity>
-      <price/>
     </entree>
   </section>
 </barmenu>
